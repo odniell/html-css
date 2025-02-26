@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+body{
+    background-image: linear-gradient(to right, #1F2024, #38363d);
+}
+
+
+h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2{
+    color: white;
+}
+
+ul{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    font-size: 15px;
+}
+
+img{
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px #0d0e0fd0;
+    padding: 4px;
+}
+
+div{
+    text-align: center;
+}
+
+p{
+    color: white;
+    font-size: 17px;
+    margin: auto;
+    text-align: center;
+    flex: 70;
+}

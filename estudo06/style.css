@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: lightgray;
+}
+
+header{
+    margin: 307px 10px 10px 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    margin-top: -10px;
+    font-size: 16px;
+}
+
+img{
+    width: 30px;
+    color: white;
+}
+
+.nave{
+    width: 10px;
+    margin: -384px 10px 10px -1px;
+}
+
+a > .nave{
+    display: none;
+}
+
+.nave > a{
+   display: none;
+}
+
+article{
+    margin: 800px 10px 10px 10px;
+}

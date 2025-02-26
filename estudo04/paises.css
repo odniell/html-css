@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Milk";
+    src: url(font/LEMONMILK-Bold.otf) format('opentype');
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #C2DCF2;
+}
+
+header{
+    background-color: #0D1A26;
+    padding: 10px;
+    margin: -8px;
+    width: auto;
+}
+
+nav{
+    background-color: #5D84A6;
+    padding: 6px;
+    width: auto;
+    margin: -10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.507);
+    text-align: center;
+}
+
+nav > a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: "Milk";
+    font-weight: bold;
+}
+
+main{
+    background-color: white;
+    width: 900px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    margin: 40px auto 0px auto;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.527);
+    border-radius: 5px;
+}
+
+section{
+    background-color: #A3BFD9;
+    padding: 10px;
+    height: auto;
+}
+
+h2{
+    color: #C2DCF2;
+    background-color: #2A4359;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+
+article{
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: justify;
+    height: auto;
+}
+
+
+a{
+    color: #2A4359;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: aqua;
+
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: #0D1A26;
+    color: white;
+    text-align: center;
+    width: auto;
+    margin: 20px -8px -8px -8px;
+    padding: 10px;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+img{
+    width: 400px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466); 
+    border-radius: 3px;
+}
+
+div.imagem{
+    text-align: right;
+    float: right;
+    margin: 0px 0px 0px 15px;
+}
+
+iframe{
+    width: 400px;
+    height: 200px;
+    text-align: left;
+    float: left;
+    margin: 0px 15px 0px 0px;
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.466);
+    border-radius: 3px;
+}
+
+p{
+    text-align: justify;
+}
+
+h3{
+    color: #0D1A26;
+    font-weight: bold;
+    text-decoration: wavy;
+}
+
+abbr{
+    text-decoration: none;
+}

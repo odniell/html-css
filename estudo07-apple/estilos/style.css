@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Apple";
+    src: url(../fonts/HelveticaNeueBold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: "Sf";
+    src: url(../fonts/SFPRODISPLAYREGULAR.OTF) format('opentype');
+}
+
+:root{
+    --cor00: #1D1D1F;
+    --cor01: #007AFF;
+    --cor02: #A2AAAD;
+    --cor03: #38383a;
+    --cor04: #044386;
+
+    --fonte-padrao: arial, verdana, sans-serif;
+    --fonte-destaque: "Sf";
+    --fonte-apple: "Apple";
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    background-color: var(--cor02);
+
+}
+
+header{
+
+    background-image: linear-gradient(to bottom, var(--cor03), var(--cor00));
+    padding: 40px;
+
+}
+
+header > h1{
+
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-apple);
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.432);
+
+}
+
+header > p{
+
+    color: white;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-size: 1em;
+    max-width: 600px;
+    margin: auto;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.432);
+
+}
+
+nav{
+
+    background-color: var(--cor00);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.315);
+
+}
+
+nav > a{
+
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--fonte-padrao);
+    transition-duration: 0.3s;
+
+}
+
+nav > a:hover{
+
+    color: var(--cor00);
+    background-color: var(--cor02);
+    border-radius: 7px;
+
+}
+
+main{
+
+    background-color: white;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+
+}
+
+main h1{
+
+    color: var(--cor04);
+    text-align: center;
+    font-family: var(--fonte-apple);
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+main h2{
+
+    color: var(--cor04);
+    text-align: left;
+    font-family: var(--fonte-apple);
+    font-size: 1.5em;
+    background-image: linear-gradient(to right, var(--cor01), transparent);
+
+
+}
+
+main p{
+
+    font-family: var(--fonte-padrao);
+    margin: 15px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+
+}
+
+main strong{
+
+    color: var(--cor00);
+    font-family: var(--fonte-apple);
+    font-weight: bold;
+
+}
+
+main a{
+
+    text-decoration: none;
+    font-family: var(--fonte-destaque);
+    font-weight: bold;
+    color: var(--cor00);
+    background-color: var(--cor02);
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+a.externo::after{
+
+    content: "\1F517";
+
+}
+
+main a:hover{
+
+    text-decoration: underline;
+    color: var(--cor03);
+}
+
+main img{
+    
+    width: 100%;
+    
+
+}
+
+main img.pequeno{
+
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    
+}
+
+footer{
+
+    color: white;
+    background-color: var(--cor00);
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    padding: 5px;
+
+}
+
+footer a{
+
+    text-decoration: none;
+    color: var(--cor02);
+    transition-duration: 0.5s;
+
+}
+
+footer a:hover{
+
+    color: var(--cor00);
+    background-color: var(--cor02);
+    text-decoration: underline;
+    padding: 2px 4px;
+    border-radius: 5px;
+
+}
