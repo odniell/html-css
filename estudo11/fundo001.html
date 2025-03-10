@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testando fundos</title>
+    <style>
+
+        body{
+            background-image: url(img/unnamed.png);
+            background-size: 100px 100px;
+        
+        }
+
+        div.fundo{
+            display: inline-block;
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            border-radius: 15px;
+            margin: 2px;
+            text-align: center;
+            background-color: lightgray;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.336);
+        }
+
+        div#f1{
+            background-color: greenyellow;
+        }
+
+        div#f2{
+            background-image: linear-gradient(to top, greenyellow, blue);
+        }
+
+        div#f3{
+            background-image: url(img/fundo1.jpg);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="fundo" id="f1"> </div>
+    <div class="fundo" id="f2"> </div>
+    <div class="fundo" id="f3"> </div>
+</body>
+</html>
